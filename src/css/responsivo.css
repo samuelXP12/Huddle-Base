@@ -1,0 +1,98 @@
+
+@media (max-width: 1040px) {
+body {
+    padding: 0 4rem 0 4rem;
+    background-size: cover;
+}
+
+header img{
+    padding: 0rem 0 0rem;
+    width: 30rem;
+}
+
+main article h1 {
+    padding-top: 3rem;
+    font-size: 3rem;
+    /* line-height: 35px; */
+}
+}
+
+@media (max-width: 750px) {
+body {
+    background: url(/projeto-huddle-base/src/images/bg-mobile.svg) top no-repeat hsl(257, 40%, 49%);
+    height: 100vh;
+    background-size: 100%;
+    display: block;
+    /* background-size: cover; */
+    /* justify-content: space-evenly; */
+    /* gap: 10%; */
+    padding: 0 7rem 0 7rem;
+}
+
+header img{
+    padding: 6rem 0 11rem;
+    width: 27rem;
+}
+main {
+    flex-direction: column;
+    text-align: center;
+}
+main .image {
+    flex: 1;
+    padding-bottom: 10rem;
+}
+
+main article h1 {
+    padding-top: 0rem;
+    font-size: 5rem;
+}
+main article p {
+    padding: 3rem 0 7rem;
+    font-size: 3rem;
+}
+main article a {
+    /* padding: 2rem 14rem; */
+    padding: 2rem 25%;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+footer {
+    padding: 15rem 0 5rem;
+    justify-content: center;
+}
+footer ul li a {
+    font-size: 4rem;
+    padding: 15px;
+    width: 55px;
+}
+}
+
+@media (max-width: 500px) {
+body {
+    padding: 0 4rem 0 4rem;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    padding: 5rem 0 7rem; 
+}
+
+main article h1 {
+    padding-top: 0rem;
+    font-size: 3.5rem;
+}
+
+main .image {
+    padding-bottom: 5rem;
+}
+
+footer {
+    padding: 15rem 0 5rem;
+    justify-content: center;
+}
+
+}
