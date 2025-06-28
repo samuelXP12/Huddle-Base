@@ -1,6 +1,7 @@
 body {
     height: 100vh;
-    background: url(/src/images/bg-desktop.svg) left no-repeat hsl(257, 40%, 49%);
+    /* background: url(/src/images/bg-desktop.svg) left no-repeat hsl(257, 40%, 49%); */
+    background: url(../images/bg-desktop.svg) left no-repeat hsl(257, 40%, 49%);
     /* background-size: 100% 100%; */
     /* background-size: cover; */
     padding: 0 10rem 0 7rem;

@@ -19,7 +19,7 @@ main article h1 {
 
 @media (max-width: 750px) {
 body {
-    background: url(/src/images/bg-mobile.svg) top no-repeat hsl(257, 40%, 49%);
+    background: url(../images/bg-mobile.svg) top no-repeat hsl(257, 40%, 49%);
     height: 100vh;
     background-size: 100%;
     display: block;
